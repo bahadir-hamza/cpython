@@ -1,0 +1,7 @@
+name: Deneme
+on: [push]
+jobs:
+  deneme1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, World!"
